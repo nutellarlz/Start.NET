@@ -102,6 +102,10 @@
       <DependentUpon>startMenuItem.xaml</DependentUpon>
     </Compile>
     <Compile Include="userImage.vb" />
+    <Page Include="aeroResources.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="searchItemDetails.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
