@@ -1,0 +1,65 @@
+﻿<Window x:Class="startMenu7"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    
+        Title="startMenu7" Height="520" Width="400"
+        WindowStyle="None"
+        AllowsTransparency="True">
+    <Window.OpacityMask>
+        <ImageBrush ImageSource="/SDN Start Menu_7 Style Opacity.png"/>
+    </Window.OpacityMask>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/SDN Start Menu_Menu Aqua.png"/>
+        </Grid.Background>
+        <ListView Margin="10,10,128,66" Name="mainMenuList">
+            <!--<ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Stretch">
+                        <Image Source="{Binding ImageData}" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        <TextBlock Text="{Binding Title}" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnShowAll" Content="All Programs" Margin="10,0,128,41" Height="25
+                " VerticalAlignment="Bottom"/>
+        <Button x:Name="btnProfile" Content="" Margin="0,10,34,0" VerticalAlignment="Top" Height="60" HorizontalAlignment="Right" Width="60">
+            <Button.Background>
+                <ImageBrush ImageSource="/ReactOS-Start-Menu-User-image.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnUser" Content="User" Margin="0,87,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
+        <Button x:Name="btnDocuments" Content="Documents" Margin="0,122,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
+        <Button x:Name="btnPictures" Content="Pictures" Margin="0,157,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
+        <Button x:Name="btnMusic" Content="Music" Margin="0,192,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
+        <Button x:Name="btnComputer" Content="Computer" Margin="0,234,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
+        <Button x:Name="btnControlPanel" Content="Control Panel" Margin="0,276,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
+        <Button x:Name="btnTaskbarSettings" Content="Taskbar Settings" Margin="0,311,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
+        <Button x:Name="btnShutDown" Content="Shut Down" Margin="0,0,32,10" HorizontalAlignment="Right" Width="85" Height="22" VerticalAlignment="Bottom"/>
+        <Button x:Name="btnPowerOptions" Margin="0,0,10,10" HorizontalAlignment="Right" Width="22" Height="22" VerticalAlignment="Bottom">
+            <Button.Background>
+                <ImageBrush ImageSource="/ReactOS-Start-Menu-UI-07.png"/>
+            </Button.Background>
+        </Button>
+        <Menu Name="powerOptions" Margin="283,435,10,10" Visibility="Hidden">
+            <Button x:Name="btnSleep" Content="Sleep" HorizontalAlignment="Right" Width="92" Height="22" VerticalAlignment="Bottom"/>
+            <Button x:Name="btnLogOff" Content="Log Off" HorizontalAlignment="Right" Width="92" Height="22" VerticalAlignment="Bottom"/>
+            <Button x:Name="btnRestart" Content="Restart" HorizontalAlignment="Right" Width="92" Height="22" VerticalAlignment="Bottom"/>
+        </Menu>
+        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Margin="10,488,0,0" Text="Search programs and files" TextWrapping="Wrap" VerticalAlignment="Top" Width="262"/>
+        <GridSplitter HorizontalAlignment="Left" Height="2" Margin="272,227,0,0" VerticalAlignment="Top" Width="128"/>
+        <GridSplitter HorizontalAlignment="Left" Height="2" Margin="272,269,0,0" VerticalAlignment="Top" Width="128"/>
+
+    </Grid>
+</Window>

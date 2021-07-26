@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Start.NET", "Start.NET\Start.NET.vbproj", "{FD491CF3-4A01-4DA4-AE69-57F1442DA1E1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Start.NET WinForms", "WinForms Start\Start.NET WinForms.vbproj", "{FDDBA8A3-BE17-4495-85CE-FCD24FD21343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD491CF3-4A01-4DA4-AE69-57F1442DA1E1}.Debug|x86.ActiveCfg = Debug|x86
+		{FD491CF3-4A01-4DA4-AE69-57F1442DA1E1}.Debug|x86.Build.0 = Debug|x86
+		{FD491CF3-4A01-4DA4-AE69-57F1442DA1E1}.Release|x86.ActiveCfg = Release|x86
+		{FD491CF3-4A01-4DA4-AE69-57F1442DA1E1}.Release|x86.Build.0 = Release|x86
+		{FDDBA8A3-BE17-4495-85CE-FCD24FD21343}.Debug|x86.ActiveCfg = Debug|x86
+		{FDDBA8A3-BE17-4495-85CE-FCD24FD21343}.Debug|x86.Build.0 = Debug|x86
+		{FDDBA8A3-BE17-4495-85CE-FCD24FD21343}.Release|x86.ActiveCfg = Release|x86
+		{FDDBA8A3-BE17-4495-85CE-FCD24FD21343}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D86873FB-E1BE-4977-94AB-C486730000F0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="searchItemDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SDN_Start_Menu"
+             mc:Ignorable="d" d:DesignWidth="225" Height="20">
+    <Grid>
+        <Image x:Name="appIcon" HorizontalAlignment="Left" Width="20" Source="ReactOS-Start-Menu-User-image.png"/>
+        <TextBlock Name="appTitle" Margin="25,0,0.333,0" TextWrapping="Wrap" Text="Application Title" FontSize="14"/>
+        <Rectangle Name="mainClick" Fill="#00000000" Margin="0,0,0.333,0"/>
+    </Grid>
+</UserControl>
