@@ -4,7 +4,7 @@
     
         Title="startMenu7" Height="520" Width="400"
         WindowStyle="None"
-        AllowsTransparency="True">
+        AllowsTransparency="True" Icon="SDN Branding_SDN Logo.png">
     <Window.OpacityMask>
         <ImageBrush ImageSource="/SDN Start Menu_7 Style Opacity.png"/>
     </Window.OpacityMask>
@@ -41,7 +41,7 @@
                 " VerticalAlignment="Bottom"/>
         <Button x:Name="btnProfile" Content="" Margin="0,10,34,0" VerticalAlignment="Top" Height="60" HorizontalAlignment="Right" Width="60">
             <Button.Background>
-                <ImageBrush ImageSource="/ReactOS-Start-Menu-User-image.png"/>
+                <ImageBrush ImageSource="/SDN Branding_SDN Logo.png"/>
             </Button.Background>
         </Button>
         <Button x:Name="btnUser" Content="User" Margin="0,87,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
