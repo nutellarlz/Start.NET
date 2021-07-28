@@ -6,7 +6,7 @@
         WindowStyle="None"
         AllowsTransparency="True" Icon="SDN Branding_SDN Logo.png">
     <Window.OpacityMask>
-        <ImageBrush ImageSource="/SDN Start Menu_7 Style Opacity.png"/>
+        <ImageBrush ImageSource="/SDN Start Menu_7 Aero Style Opacity.png"/>
     </Window.OpacityMask>
     <Grid>
         <Grid.Background>
