@@ -197,6 +197,9 @@
     <Resource Include="SDN Branding_SDN Logo.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="SDN Start Menu_7 Aero Style Opacity.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="SDN Start Menu_Menu Aero.png" />
   </ItemGroup>
   <ItemGroup>
