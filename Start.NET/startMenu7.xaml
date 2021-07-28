@@ -10,7 +10,7 @@
     </Window.OpacityMask>
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/SDN Start Menu_Menu Aero.png"/>
+            <ImageBrush ImageSource="/SDN Start Menu_Menu Aqua.png"/>
         </Grid.Background>
         <ListView Margin="10,10,128,66" Name="mainMenuList">
             <ListView.Resources>
@@ -62,7 +62,7 @@
             <Button x:Name="btnLogOff" Content="Log Off" HorizontalAlignment="Right" Width="92" Height="22" VerticalAlignment="Bottom"/>
             <Button x:Name="btnRestart" Content="Restart" HorizontalAlignment="Right" Width="92" Height="22" VerticalAlignment="Bottom"/>
         </Menu>
-        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Margin="10,488,0,0" Text="Search programs and files" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" Height="22"/>
+        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Margin="10,488,0,0" Text="Search programs and files" TextWrapping="Wrap" VerticalAlignment="Top" Width="262"/>
         <GridSplitter HorizontalAlignment="Left" Height="2" Margin="272,227,0,0" VerticalAlignment="Top" Width="128"/>
         <GridSplitter HorizontalAlignment="Left" Height="2" Margin="272,269,0,0" VerticalAlignment="Top" Width="128"/>
 
