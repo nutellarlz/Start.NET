@@ -199,5 +199,11 @@
   <ItemGroup>
     <Resource Include="SDN Start Menu_Menu Aero.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SDN Start Menu_Menu Aero Aqua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SDN Start Menu_Menu Aero Jet Blue.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
