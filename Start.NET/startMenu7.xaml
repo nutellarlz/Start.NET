@@ -22,11 +22,11 @@
             <ImageBrush ImageSource="/SDN Start Menu_Menu Aqua.png"/>
         </Grid.Background>
         <ListView Margin="10,10,128,66" Name="mainMenuList">
-            <ListView.Resources>
+            <!--<ListView.Resources>
                 <Style TargetType="GridViewColumnHeader">
                     <Setter Property="Visibility" Value="Collapsed" />
                 </Style>
-            </ListView.Resources>
+            </ListView.Resources>-->
             <!--<ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel />
