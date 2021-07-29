@@ -5,6 +5,15 @@
         Title="startMenu7" Height="520" Width="400"
         WindowStyle="None"
         AllowsTransparency="True" Icon="SDN Branding_SDN Logo.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary 
+                  Source="aeroResources.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
     <Window.OpacityMask>
         <ImageBrush ImageSource="/SDN Start Menu_7 Aero Style Opacity.png"/>
     </Window.OpacityMask>
