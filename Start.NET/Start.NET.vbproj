@@ -105,6 +105,9 @@
     <Compile Include="startMenuItem.xaml.vb">
       <DependentUpon>startMenuItem.xaml</DependentUpon>
     </Compile>
+    <Compile Include="startScreen8.xaml.vb">
+      <DependentUpon>startScreen8.xaml</DependentUpon>
+    </Compile>
     <Compile Include="userImage.vb" />
     <Page Include="aeroResources.xaml">
       <SubType>Designer</SubType>
@@ -119,6 +122,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="startMenuItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="startScreen8.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
