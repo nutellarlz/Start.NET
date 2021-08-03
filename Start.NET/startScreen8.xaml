@@ -8,6 +8,15 @@
         Title="startScreen8" Height="450" Width="800"
         WindowStyle="None"
         AllowsTransparency="True" Icon="SDN Branding_SDN Logo.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary 
+                  Source="metroResources.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/SDN Start Menu_Page Aqua.png"/>
