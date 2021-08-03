@@ -6,6 +6,33 @@
         xmlns:local="clr-namespace:SDN_Start_Menu"
         mc:Ignorable="d"
         Title="startScreen8" Height="450" Width="800"
+        WindowStyle="None"
         AllowsTransparency="True" Icon="SDN Branding_SDN Logo.png">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/SDN Start Menu_Page Aqua.png"/>
+        </Grid.Background>
+        <ListView Margin="0,75,0,0" x:Name="mainMenuList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Stretch">
+                        <Image Source="{Binding ImageData}" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        <TextBlock Text="{Binding Title}" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnProfile" Content="" Margin="0,10,10,0" VerticalAlignment="Top" Height="60" HorizontalAlignment="Right" Width="60">
+            <Button.Background>
+                <ImageBrush ImageSource="SDN Branding_SDN Logo.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnShowAll" Content="&gt;" Margin="10,0,765,10" Height="25" VerticalAlignment="Bottom"/>
+
     </Grid>
 </Window>
