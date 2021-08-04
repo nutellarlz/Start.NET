@@ -15,9 +15,9 @@ Imports System.Windows
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("JTechMe")>
 <Assembly: AssemblyProduct("SDN Start Menu")>
-<Assembly: AssemblyCopyright("Copyright @  2021")> 
-<Assembly: AssemblyTrademark("")> 
-<Assembly: ComVisible(false)>
+<Assembly: AssemblyCopyright("Copyright @ 2021")>
+<Assembly: AssemblyTrademark("")>
+<Assembly: ComVisible(False)>
 
 'In order to begin building localizable applications, set 
 '<UICulture>CultureYouAreCodingWith</UICulture> in your .vbproj file
