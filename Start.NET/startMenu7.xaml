@@ -60,7 +60,7 @@
         <Button x:Name="btnComputer" Content="Computer" Margin="0,234,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
         <Button x:Name="btnControlPanel" Content="Control Panel" Margin="0,276,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
         <Button x:Name="btnTaskbarSettings" Content="Taskbar Settings" Margin="0,311,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="128" Height="30"/>
-        <Button x:Name="btnShutDown" Content="Shut Down" Margin="0,0,32,10" HorizontalAlignment="Right" Width="85" Height="22" VerticalAlignment="Bottom"/>
+        <Button x:Name="btnShutDown" Content="Shut Down" Margin="0,0,32,10" HorizontalAlignment="Right" Width="85" Height="22" VerticalAlignment="Bottom" Style="{DynamicResource ButtonPower}"/>
         <Button x:Name="btnPowerOptions" Margin="0,0,10,10" HorizontalAlignment="Right" Width="22" Height="22" VerticalAlignment="Bottom" Content="&gt;"/>
         <Menu Name="powerOptions" Margin="283,435,10,10" Visibility="Hidden">
             <Button x:Name="btnSleep" Content="Sleep" HorizontalAlignment="Right" Width="92" Height="22" VerticalAlignment="Bottom"/>
