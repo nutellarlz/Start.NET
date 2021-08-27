@@ -27,7 +27,7 @@
                 </LinearGradientBrush>
             </Setter.Value>
         </Setter>
-        <Setter Property="BorderBrush" Value="#00707070"/>
+        <Setter Property="BorderBrush" Value="#FF707070"/>
         <Setter Property="BorderThickness" Value="1"/>
         <Setter Property="Foreground" Value="#FFFFFFFF"/>
         <Setter Property="HorizontalContentAlignment" Value="Center"/>
@@ -91,7 +91,7 @@
                 </LinearGradientBrush>
             </Setter.Value>
         </Setter>
-        <Setter Property="BorderBrush" Value="#00707070"/>
+        <Setter Property="BorderBrush" Value="#FF707070"/>
         <Setter Property="BorderThickness" Value="1"/>
         <Setter Property="Foreground" Value="#FFFFFFFF"/>
         <Setter Property="HorizontalContentAlignment" Value="Center"/>
